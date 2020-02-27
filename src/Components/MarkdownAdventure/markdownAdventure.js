@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//Design for this component only
 import './markdownAdventure.scss';
 
 
