@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import './markdownAdventure.scss';
 
-class MarkdownAventure extends Component {
+
+class MarkdownAdventure extends Component {
     render() {
         return (
-            <div>
+            <div className="mdAdventure">
                 <div className="container">
                     <div className="row mt-4">
                         <div className="col text-center">
-                            <h1>Maurice Markdown</h1>
+                            <h1>Maurice Markdown Adventure</h1>
                         </div>
                     </div>
                 </div>
@@ -15,4 +17,4 @@ class MarkdownAventure extends Component {
         );
     }
 }
-export default MarkdownAventure
+export default MarkdownAdventure
