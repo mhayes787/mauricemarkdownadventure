@@ -12,6 +12,17 @@ class MarkdownAdventure extends Component {
                             <h1>Maurice Markdown Adventure</h1>
                         </div>
                     </div>
+
+                    <div className="row mt-4">
+                        <div className="col-md-6">
+                            <h4>Maurice Markdown</h4>
+                            <textarea className="textArea" />
+                        </div>
+                        <div className="col-md-6">
+                            <h4>Maurice Output</h4>
+                            <textarea className="textArea" />
+                        </div>
+                    </div>
                 </div>
             </div>
         );
