@@ -9,8 +9,8 @@ class Home extends Component {
     render() {
         return (
             <div className="homeBody">
-                <h1>Welcome To Maurice Markdown Adventure Page</h1>
-                <Link to="/MauriceMarkdownAdventure">Click to proceed to the Adventure</Link>
+                <h1 id="Welcome"> Welcome To Maurice Markdown Adventure Page</h1>
+                <Link id="Link" to="/MauriceMarkdownAdventure">Click to proceed to the Adventure</Link>
             </div >
         );
     }
