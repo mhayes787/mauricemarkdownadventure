@@ -2,7 +2,7 @@ import { Selector, t as browser } from 'testcafe';
 
 export default class HomePage {
     constructor() {
-        this.title = Selector('#Welcome');
+        this.title = Selector('#WelcomePage');
         this.link = Selector('#Link');
     }
 

@@ -9,7 +9,7 @@ class Home extends Component {
     render() {
         return (
             <div className="homeBody">
-                <h1 id="Welcome"> Welcome To Maurice Markdown Adventure Page</h1>
+                <h1 id="WelcomePage"> Welcome To Maurice Markdown Adventure Page</h1>
                 <Link id="Link" to="/MauriceMarkdownAdventure">Click to proceed to the Adventure</Link>
             </div >
         );
