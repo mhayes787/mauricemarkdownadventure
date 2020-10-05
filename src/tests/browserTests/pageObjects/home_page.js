@@ -6,7 +6,6 @@ export default class HomePage {
         this.link = Selector('#Link');
     }
 
-
     async goToAdventurePage() {
         await browser
             .click(this.link);
